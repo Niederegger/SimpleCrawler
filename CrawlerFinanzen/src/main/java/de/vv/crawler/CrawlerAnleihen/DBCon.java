@@ -107,6 +107,7 @@ public class DBCon {
 			psInsert.setString(6, "");															// mic				<- keine
 			psInsert.setString(9, App.c.crawl_conf.comment);				// comment		<- Crawler
 			for (int i = 0; i < dc.fieldNames.length; i++) {				// <- looping through crawlResult
+				if(dc.fieldNames[i] == null || dc.fieldNames.length == 0) continue;
 				psInsert.setString(7, dc.fieldNames[i]);							// fieldname 	<- kommt durch loop
 				psInsert.setString(8, dc.stringValues[i]);						// value			<- ebenfalls durch loop
 				psInsert.executeUpdate();
