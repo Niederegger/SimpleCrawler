@@ -1,0 +1,8 @@
+{
+  "crawlId": "CRFTA",
+  "getJobCommand": "{call vvsp_get_crawler_job(?)}",
+  "timeSleep": 10000,
+  "noJobSleep": 20000,
+  "comment": "Crawler: ",
+  "userAgent": "Mozilla/5.0 (compatible; WpWiki-Bot; +http://wpwiki.de/ueber)"
+}

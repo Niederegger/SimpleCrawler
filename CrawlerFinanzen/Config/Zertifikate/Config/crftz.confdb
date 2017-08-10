@@ -1,0 +1,7 @@
+{
+  "user": "TestUser",
+  "pw": "TestUser",
+  "serverName": "ACER-2016\\SQLEXPRESS,1433",
+  "dbName": "MasterData",
+  "port": 1433
+}
